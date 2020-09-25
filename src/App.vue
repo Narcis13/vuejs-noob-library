@@ -1,15 +1,17 @@
 <template>
   <div id="app">
-    <Sidebar />
+   <!-- <Sidebar />  -->
+   <Button caption="Uraa"></Button>
   </div>
 </template>
 
 <script>
   import Sidebar from './components/Sidebar'
-
+  import Button from './components/Button'
   export default {
     components: {
-      Sidebar
+      Sidebar,
+      Button
     }
   };
 </script>
@@ -33,6 +35,7 @@
 
   #app {
     position: relative;
+    padding: 20px;
     min-height: 100vh;
     width: 100%;
   }
