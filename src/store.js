@@ -1,14 +1,6 @@
-import Vue from "vue";
 import Vuex from "vuex";
 
-/*
-  If you are using Vuex to centralize your data, 
-  you can use this layer easily as interface to your backend, 
-  where you can execute your API calls and so on.
-*/
-Vue.use(Vuex);
-
-export const store = new Vuex.Store({
+export const store = Vuex.createStore({
   state: {
     /*
       Each element from the array has basically a title, 

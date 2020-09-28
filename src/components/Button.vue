@@ -20,17 +20,21 @@ export default {
 
 <style lang="scss" scoped>
 #btn {
-    border: 1px solid black;
-    position:relative;
-    width:fit-content;
-    height:fit-content;
-    border-radius: 5px; 
-     padding: 5px; 
-     background-color: aquamarine;
+
     a {
-       
-        display:flex;
-         text-decoration: none;
-    }
+            border: 0;
+            border-radius: 0.25rem;
+            background: #1E88E5;
+            color: white;
+            font-family: system-ui, sans-serif;
+            font-size: 1rem;
+            line-height: 1.2;
+            white-space: nowrap;
+            text-decoration: none;
+            padding: 0.25rem 0.5rem;
+            margin: 0.25rem;
+            cursor: pointer;
 }
+    }
+
 </style>
